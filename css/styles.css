@@ -1,0 +1,236 @@
+@media screen and (min-width: 570px) {
+    body {
+        color: #2d3c49;
+        font-weight: 300;
+    }
+
+    img {
+        transition: width 0.5s;
+        width: 75vw;
+        max-width: 100%;
+    }
+
+    .text-muted:hover,
+    .text-thin:hover,
+    .row:hover,
+    a:hover,
+    .modal-body-margin:hover {
+        border-radius: 68px 0 158px 0;
+        -moz-border-radius: 68px 0 158px 0;
+        -webkit-border-radius: 68px 0 158px 0;
+        border: 0px solid #000000;
+        background-color: darkblue;
+        color: red;
+        font-size: 30px;
+    }
+
+    a {
+        color: black;
+        font-size: 18px;
+        padding: .5em;
+    }
+
+    span {
+        color: red;
+    }
+
+    .text-muted {
+        color: #7d97ad;
+    }
+
+    .text-thin {
+        font-weight: 100;
+    }
+
+    .text-thin:hover {
+        transition: width 0.5s;
+        width: 90%;
+    }
+
+    .title-super {
+        font-family: "Lato", sans-serif;
+        font-size: 60px;
+        padding-right: 10px;
+    }
+
+    .title-logo {
+        margin-top: 20px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .thick-line-divider {
+        border: 2px solid;
+        color: #7d97ad;
+    }
+
+    .shadow-grey {
+        -webkit-box-shadow: -2px 20px 24px -9px rgba(123,130,135,1);
+        -moz-box-shadow: -2px 20px 24px -9px rgba(123,130,135,1);
+        box-shadow: -2px 20px 24px -9px rgba(123,130,135,1);
+    }
+
+    .shadow-blue {
+        -webkit-box-shadow: -2px 20px 24px -9px rgba(45,115,161,1);
+        -moz-box-shadow: -2px 20px 24px -9px rgba(45,115,161,1);
+        box-shadow: -2px 20px 24px -9px rgba(45,115,161,1);
+    }
+
+    .modal-body-margin {
+        margin: 20px;
+    }
+
+    .modal-big-text {
+        font-size: 24px;
+    }
+
+    .gradient {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffb76b+7,ffb76b+7,ff7f04+14,ff7f04+23,ffa73d+23,ffa73d+23,ff7f04+46,ffb76b+62,ffa73d+70,ffa73d+70,ff7f04+81,ff7f04+85,ffa73d+93 */
+        background: #ffb76b; /* Old browsers */
+        background: -moz-linear-gradient(left,  #ffb76b 7%, #ffb76b 7%, #ff7f04 14%, #ff7f04 23%, #ffa73d 23%, #ffa73d 23%, #ff7f04 46%, #ffb76b 62%, #ffa73d 70%, #ffa73d 70%, #ff7f04 81%, #ff7f04 85%, #ffa73d 93%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(left,  #ffb76b 7%,#ffb76b 7%,#ff7f04 14%,#ff7f04 23%,#ffa73d 23%,#ffa73d 23%,#ff7f04 46%,#ffb76b 62%,#ffa73d 70%,#ffa73d 70%,#ff7f04 81%,#ff7f04 85%,#ffa73d 93%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right,  #ffb76b 7%,#ffb76b 7%,#ff7f04 14%,#ff7f04 23%,#ffa73d 23%,#ffa73d 23%,#ff7f04 46%,#ffb76b 62%,#ffa73d 70%,#ffa73d 70%,#ff7f04 81%,#ff7f04 85%,#ffa73d 93%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ffa73d',GradientType=1 ); /* IE6-9 */
+    }
+
+    .hide-nav-big-screen{
+        transition: width 0.9s;
+        display: none;
+    }
+
+    .featured-col {
+        padding: 10px;
+    }
+
+    .img-validator-style {
+        border:0;
+        width:88px;
+        height:31px
+    }
+}
+
+@media screen and (min-width: 250px) and (max-width: 570px) {
+    body {
+        color: #2d3c49;
+        font-weight: 300;
+        font-size: 14px;
+    }
+
+    img {
+        transition: width 0.5s;
+        width: 100vw;
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    .nav-background-color {
+        background-color: black;
+    }
+
+    ul:hover {
+        background-color: white;
+        color: black;
+    }
+
+    a {
+        color: black;
+        font-size: 14px;
+        padding: .5em;
+    }
+
+    a:hover,
+    .modal-body-margin:hover {
+        border-radius: 68px 0px 158px 0px;
+        -moz-border-radius: 68px 0px 158px 0px;
+        -webkit-border-radius: 68px 0px 158px 0px;
+        border: 0px solid #000000;
+        font-size: 25px;
+        color: black;
+    }
+
+    .hide-office {
+        display: none;
+    }
+
+        span {
+        color: red;
+    }
+
+    .row {
+        background-color: black;
+    }
+
+    .text-muted {
+        color: #7d97ad;
+    }
+
+    .text-thin {
+        font-weight: 100;
+    }
+
+    .text-thin:hover {
+        transition: width 0.5s;
+        font-size: 35px;
+        width: 90%;
+    }
+
+    .title-super {
+        font-size: 30px;
+        color: #7d97ad;
+    }
+
+    .text-mobile-lightblue {
+        color: lightblue;
+    }
+
+    .text-mobile-lightgreen {
+        color: lightgreen;
+    }
+
+    .title-logo {
+        margin-top: 20px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .thick-line-divider {
+        border: 2px solid;
+        color: #7d97ad;
+    }
+
+    .shadow-blue {
+        -webkit-box-shadow: -2px 20px 24px -9px rgba(45,115,161,1);
+        -moz-box-shadow: -2px 20px 24px -9px rgba(45,115,161,1);
+        box-shadow: -2px 20px 24px -9px rgba(45,115,161,1);
+    }
+
+    .shadow-grey {
+        -webkit-box-shadow: -2px 20px 24px -9px rgba(123,130,135,1);
+        -moz-box-shadow: -2px 20px 24px -9px rgba(123,130,135,1);
+        box-shadow: -2px 20px 24px -9px rgba(123,130,135,1);
+    }
+
+    .modal-body-margin {
+        margin: 20px;
+    }
+
+    .box-radius {
+        border-radius: 68px 0px 158px 0px;
+        -moz-border-radius: 68px 0px 158px 0px;
+        -webkit-border-radius: 68px 0px 158px 0px;
+        border: 0px solid #000000;
+    }
+
+    .modal-content-radius {
+        border-radius: 0px 98px 0px 102px;
+        -moz-border-radius: 0px 98px 0px 102px;
+        -webkit-border-radius: 0px 98px 0px 102px;
+        border: 0px solid #000000;
+        background-color: #f3ecec;
+        font-size: 18px;
+    }
+
+    .featured-mobile-col {
+        padding: 30px;
+    }
+}
